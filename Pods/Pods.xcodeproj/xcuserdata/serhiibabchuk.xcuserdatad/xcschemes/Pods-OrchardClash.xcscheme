@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "21203B2479DD9839258E26F982116587"
-               BuildableName = "Pods_OrchardClash.framework"
+               BuildableName = "libPods-OrchardClash.a"
                BlueprintName = "Pods-OrchardClash"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

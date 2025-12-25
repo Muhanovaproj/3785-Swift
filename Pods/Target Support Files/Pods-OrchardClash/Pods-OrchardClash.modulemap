@@ -1,4 +1,4 @@
-framework module Pods_OrchardClash {
+module Pods_OrchardClash {
   umbrella header "Pods-OrchardClash-umbrella.h"
 
   export *

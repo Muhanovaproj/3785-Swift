@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AA1D3054F9C3F5608F40A6A /* Pods_OrchardClash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F637FDC6CDE7A14CD2F03A5 /* Pods_OrchardClash.framework */; };
+		243CAE5021F308826D952137 /* libPods-OrchardClash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2447241E58BCDC91C20A16 /* libPods-OrchardClash.a */; };
 		72103ECF2EF5555700A59B4E /* OrchardClashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72103ECD2EF5555700A59B4E /* OrchardClashApp.swift */; };
 		72103ED02EF5555700A59B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72103ECC2EF5555700A59B4E /* Assets.xcassets */; };
 		72103EDC2EF555C500A59B4E /* OCHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72103ED72EF555C500A59B4E /* OCHomeWebView.swift */; };
@@ -15,6 +15,16 @@
 		72103EDE2EF555C500A59B4E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72103ED42EF555C500A59B4E /* Color+Extensions.swift */; };
 		72103EDF2EF555C500A59B4E /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72103ED52EF555C500A59B4E /* ShapeStyle+Extensions.swift */; };
 		72103EE02EF555C500A59B4E /* OCLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72103ED92EF555C500A59B4E /* OCLaunchView.swift */; };
+		72949D1C2EFD23F100A1AB99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D1A2EFD23F100A1AB99 /* AppDelegate.swift */; };
+		72949D1D2EFD23F100A1AB99 /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D1B2EFD23F100A1AB99 /* AppEntryPoint.swift */; };
+		72949D1F2EFD241A00A1AB99 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D1E2EFD241A00A1AB99 /* TextScreen.swift */; };
+		72949D282EFD24FE00A1AB99 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 72949D202EFD24FE00A1AB99 /* index.html */; };
+		72949D292EFD24FE00A1AB99 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D232EFD24FE00A1AB99 /* WebViewCoordinator.swift */; };
+		72949D2A2EFD24FE00A1AB99 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D222EFD24FE00A1AB99 /* WebViewContainer.swift */; };
+		72949D2C2EFD24FE00A1AB99 /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D242EFD24FE00A1AB99 /* WebSheetViewController.swift */; };
+		72949D2D2EFD24FE00A1AB99 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D212EFD24FE00A1AB99 /* UserAgentBuilder.swift */; };
+		72949D302EFD251700A1AB99 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72949D2E2EFD251700A1AB99 /* PrivacyView.swift */; };
+		72949D322EFD25DC00A1AB99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72949D312EFD25DC00A1AB99 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +39,18 @@
 		72103ED52EF555C500A59B4E /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
 		72103ED72EF555C500A59B4E /* OCHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCHomeWebView.swift; sourceTree = "<group>"; };
 		72103ED92EF555C500A59B4E /* OCLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCLaunchView.swift; sourceTree = "<group>"; };
-		9F637FDC6CDE7A14CD2F03A5 /* Pods_OrchardClash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrchardClash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72949D1A2EFD23F100A1AB99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72949D1B2EFD23F100A1AB99 /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		72949D1E2EFD241A00A1AB99 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		72949D202EFD24FE00A1AB99 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		72949D212EFD24FE00A1AB99 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		72949D222EFD24FE00A1AB99 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		72949D232EFD24FE00A1AB99 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		72949D242EFD24FE00A1AB99 /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
+		72949D2E2EFD251700A1AB99 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		72949D312EFD25DC00A1AB99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72949D332EFD285E00A1AB99 /* OrchardClash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrchardClash.entitlements; sourceTree = "<group>"; };
+		BC2447241E58BCDC91C20A16 /* libPods-OrchardClash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrchardClash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA1D3054F9C3F5608F40A6A /* Pods_OrchardClash.framework in Frameworks */,
+				243CAE5021F308826D952137 /* libPods-OrchardClash.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +95,11 @@
 		72103ECE2EF5555700A59B4E /* OrchardClash */ = {
 			isa = PBXGroup;
 			children = (
+				72949D332EFD285E00A1AB99 /* OrchardClash.entitlements */,
 				72103ED62EF555C500A59B4E /* Extensions */,
 				72103EDB2EF555C500A59B4E /* Screens */,
 				72103ED22EF555A300A59B4E /* Info.plist */,
+				72949D312EFD25DC00A1AB99 /* GoogleService-Info.plist */,
 				72103ED12EF5555900A59B4E /* App */,
 				72103ECC2EF5555700A59B4E /* Assets.xcassets */,
 			);
@@ -86,6 +109,8 @@
 		72103ED12EF5555900A59B4E /* App */ = {
 			isa = PBXGroup;
 			children = (
+				72949D1A2EFD23F100A1AB99 /* AppDelegate.swift */,
+				72949D1B2EFD23F100A1AB99 /* AppEntryPoint.swift */,
 				72103ECD2EF5555700A59B4E /* OrchardClashApp.swift */,
 			);
 			path = App;
@@ -94,6 +119,7 @@
 		72103ED62EF555C500A59B4E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				72949D1E2EFD241A00A1AB99 /* TextScreen.swift */,
 				72103ED32EF555C500A59B4E /* View+Extensions.swift */,
 				72103ED42EF555C500A59B4E /* Color+Extensions.swift */,
 				72103ED52EF555C500A59B4E /* ShapeStyle+Extensions.swift */,
@@ -120,16 +146,38 @@
 		72103EDB2EF555C500A59B4E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				72949D2F2EFD251700A1AB99 /* PrivacyScreen */,
+				72949D252EFD24FE00A1AB99 /* Web */,
 				72103ED82EF555C500A59B4E /* HomeWebScreen */,
 				72103EDA2EF555C500A59B4E /* LaunchScreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		72949D252EFD24FE00A1AB99 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				72949D202EFD24FE00A1AB99 /* index.html */,
+				72949D212EFD24FE00A1AB99 /* UserAgentBuilder.swift */,
+				72949D222EFD24FE00A1AB99 /* WebViewContainer.swift */,
+				72949D232EFD24FE00A1AB99 /* WebViewCoordinator.swift */,
+				72949D242EFD24FE00A1AB99 /* WebSheetViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		72949D2F2EFD251700A1AB99 /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72949D2E2EFD251700A1AB99 /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
 		B87EECCA2E18435DA81F1AC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F637FDC6CDE7A14CD2F03A5 /* Pods_OrchardClash.framework */,
+				BC2447241E58BCDC91C20A16 /* libPods-OrchardClash.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,6 +193,7 @@
 				72103EB92EF5553200A59B4E /* Sources */,
 				72103EBA2EF5553200A59B4E /* Frameworks */,
 				72103EBB2EF5553200A59B4E /* Resources */,
+				04381AB1112AA4990BCEC519 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,12 +244,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				72103ED02EF5555700A59B4E /* Assets.xcassets in Resources */,
+				72949D322EFD25DC00A1AB99 /* GoogleService-Info.plist in Resources */,
+				72949D282EFD24FE00A1AB99 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04381AB1112AA4990BCEC519 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrchardClash/Pods-OrchardClash-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrchardClash/Pods-OrchardClash-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrchardClash/Pods-OrchardClash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CB739B0E72FB9F97FD71C128 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -231,10 +303,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				72103ECF2EF5555700A59B4E /* OrchardClashApp.swift in Sources */,
+				72949D1F2EFD241A00A1AB99 /* TextScreen.swift in Sources */,
 				72103EDC2EF555C500A59B4E /* OCHomeWebView.swift in Sources */,
+				72949D292EFD24FE00A1AB99 /* WebViewCoordinator.swift in Sources */,
+				72949D2A2EFD24FE00A1AB99 /* WebViewContainer.swift in Sources */,
+				72949D302EFD251700A1AB99 /* PrivacyView.swift in Sources */,
+				72949D2C2EFD24FE00A1AB99 /* WebSheetViewController.swift in Sources */,
+				72949D2D2EFD24FE00A1AB99 /* UserAgentBuilder.swift in Sources */,
 				72103EDD2EF555C500A59B4E /* View+Extensions.swift in Sources */,
 				72103EDE2EF555C500A59B4E /* Color+Extensions.swift in Sources */,
 				72103EDF2EF555C500A59B4E /* ShapeStyle+Extensions.swift in Sources */,
+				72949D1C2EFD23F100A1AB99 /* AppDelegate.swift in Sources */,
+				72949D1D2EFD23F100A1AB99 /* AppEntryPoint.swift in Sources */,
 				72103EE02EF555C500A59B4E /* OCLaunchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,14 +444,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrchardClash/OrchardClash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OrchardClash/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Orchard Clash Mix";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to take a profile photo for your account.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -386,8 +471,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muhanovaproj.app;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhanovaproj.app2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -406,14 +491,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrchardClash/OrchardClash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OrchardClash/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Orchard Clash Mix";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to take a profile photo for your account.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -428,8 +518,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muhanovaproj.app;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhanovaproj.app2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
